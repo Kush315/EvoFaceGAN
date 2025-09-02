@@ -44,10 +44,10 @@ EvoFaceGAN is a PyTorch Lightning-based Generative Adversarial Network (GAN) for
 
 ## Datasets & Preprocessing
 
-   -Supported datasets: CACD and UTKFace.
-   -Preprocessing scripts are provided in preprocessing/ to split images into domains (young/old).
+   - Supported datasets: CACD and UTKFace.
+   - Preprocessing scripts are provided in preprocessing/ to split images into domains (young/old).
    **Example (CACD):**
    ```bash
    python [preprocess_cacd.py](http://_vscodecontentref_/9) --image_dir /path/to/CACD/images --metadata /path/to/CACD/metadata.mat --output_dir /path/to/output
    ```
-   -hi
+   - hi
