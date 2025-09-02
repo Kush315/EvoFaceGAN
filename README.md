@@ -5,15 +5,13 @@ EvoFaceGAN is a PyTorch Lightning-based Generative Adversarial Network (GAN) for
 ## Table of Contents
 
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Datasets & Preprocessing](#datasets--preprocessing)
 - [Configuration](#configuration)
 - [Training](#training)
 - [Inference](#inference)
 - [Results](#results)
-- [Citation](#citation)
-- [License](#license)
+
 
 ---
 
