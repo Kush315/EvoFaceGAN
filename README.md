@@ -75,3 +75,18 @@ python [main.py](http://_vscodecontentref_/10) --config [aging_gan.yaml](http://
 - Training logs and images are saved via TensorBoard.
 
 ---
+## Inference
+To generate aged faces from images:
+   - Place images in a directory (e.g., /Downloads/CACD_VS/).
+   - Run the inference script:
+     ```bash
+     python [infer.py](http://_vscodecontentref_/12) --image_dir /path/to/images
+     ```
+     - The script loads the pretrained model from pretrained_model/state_dict.pth.
+     - Output images are saved as mygraph.png.
+---
+
+## Results
+-  Example output is provided below:
+
+
