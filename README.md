@@ -90,4 +90,6 @@ To generate aged faces from images:
 -  Example output is provided below:
 ![Aged Face Result 1](mygraph.png)
 
+- Training and generated images are logged to TensorBoard.
+
 
