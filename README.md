@@ -30,20 +30,20 @@ EvoFaceGAN is a PyTorch Lightning-based Generative Adversarial Network (GAN) for
 
 ## Project Structure
 
-EvoFaceGan/
-│
-├── main.py                # Training entry point
-├── infer.py               # Inference script
-├── gan_module.py          # GAN model (AgingGAN) and training logic
-├── models.py              # Generator, Discriminator, ResidualBlock definitions
-├── dataset.py             # Custom PyTorch Dataset for image pairs
-├── requirements.txt       # Python dependencies
-├── timing.py              # Timing utilities
-├── configs/
-│   └── aging_gan.yaml     # Training configuration
-├── preprocessing/
-│   ├── preprocess_cacd.py # CACD dataset preprocessing
-│   └── preprocess_utk.py  # UTKFace dataset preprocessing
-├── pretrained_model/
-│   └── state_dict.pth     # Pretrained model weights
-└── mygraph.png            # Example output image
+- EvoFaceGan/
+  │
+  ├── main.py                # Training entry point
+  ├── infer.py               # Inference script
+  ├── gan_module.py          # GAN model (AgingGAN) and training logic
+  ├── models.py              # Generator, Discriminator, ResidualBlock definitions
+  ├── dataset.py             # Custom PyTorch Dataset for image pairs
+  ├── requirements.txt       # Python dependencies
+  ├── timing.py              # Timing utilities
+  ├── configs/
+  │   └── aging_gan.yaml     # Training configuration
+  ├── preprocessing/
+  │   ├── preprocess_cacd.py # CACD dataset preprocessing
+  │   └── preprocess_utk.py  # UTKFace dataset preprocessing
+  ├── pretrained_model/
+  │   └── state_dict.pth     # Pretrained model weights
+  └── mygraph.png            # Example output image
