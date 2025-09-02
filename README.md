@@ -88,6 +88,6 @@ To generate aged faces from images:
 
 ## Results
 -  Example output is provided below:
-![Aged Face Result 1](mygrapg.png)
+![Aged Face Result 1](mygraph.png)
 
 
